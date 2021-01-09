@@ -1,13 +1,13 @@
 {
-  "name": "simple-videochat-webrtc",
+  "name": "video-chat",
   "version": "1.0.0",
-  "description": "Video Chat between 2 people using simple-peer",
+  "description": "video chat przeznaczony dla dwóch użytkowników, wykorzystujący simple-peer",
   "main": "main.js",
   "scripts": {
     "start": "node server.js",
     "watch": "npx watchify ./public/main.js -o ./public/bundle.js"
   },
-  "author": "Vinayak Sinha",
+  "author": "Vinayak Sinha modify by Agnieszka Rogowska and Dawid Kosmala",
   "dependencies": {
     "express": "^4.16.4",
     "simple-peer": "^9.2.1",
